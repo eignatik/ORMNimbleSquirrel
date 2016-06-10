@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#ffffff"
+        >
+
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="60dp"
+            android:id="@+id/tvText1"
+              android:background="#ff65b0ff"
+              android:text="WELCOME TO"
+              android:gravity="center"
+              android:layout_gravity="center"
+              android:textSize="14pt"
+              android:textColor="#ffffff"
+              android:textStyle="bold"
+            />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/firstSubmit"
+            android:background="#ffe1dde8"
+            android:textColor="#000000"
+            android:text="PRESS LOGIN"
+            android:paddingLeft="15dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/secondSubmit"
+            android:background="#ffe1dde8"
+            android:textColor="#000000"
+            android:text="****"
+            android:paddingLeft="15dp" android:password="true" android:singleLine="false"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right"
+            android:text="SIGN IN"
+            android:background="#ff65b0ff"
+            android:id="@+id/submitButton"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="REGISTRATION"
+            android:background="#ff65b0ff"
+            android:layout_marginTop="200dp"
+            android:id="@+id/regBut"
+            />
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SIGN IN LIKE A GUEST"
+            android:background="#ff65b0ff"
+            android:layout_marginTop="5dp"
+            android:id="@+id/guestBut"
+            />
+</LinearLayout>
+

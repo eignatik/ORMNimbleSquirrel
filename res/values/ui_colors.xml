@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_background" >#0c4c5d</color>
+     <color name="splash_background_grad" >#004456</color>
+    <color name="splash_background_grad_end" >#00004456</color>
+    <color name="app_title" >#004253</color>
+    <color name="radial_grad1" >#29ba00ff</color>
+    <color name="radial_grad2" >#c0ffffff</color>
+    <color name="setka" >#cdcecf</color>
+    <color name="heart_light" >#fef5cf</color>
+    <color name="icon_highlight" >#1164a3</color>
+
+
+
+    <color name="slide_button_background_normal" >#003238</color>
+    <color name="slide_button_text_normal" >#00ffd2</color>
+
+    <color name="slide_button_background_pressed" >#1164a3</color>
+    <color name="slide_button_text_pressed" >#00ffd2</color>
+
+    <color name="slide_button_background_active" >#005d57</color>
+    <color name="slide_button_text_active" >#00ffd2</color>
+
+    <color name="slide_button_text_disabled" >#317385</color>
+    <color name="slide_button_background_disabled" >#003238</color>
+    <color name="slide_button_stroke_disabled" >#317385</color>
+    <color name="top_grad_color" >#66093b5b</color>
+    <color name="top_grad_color_end" >#00093b5b</color>
+    <color name="content_panel_color" >#63001c23</color>
+
+    <color name="actionbar_button_color_text" >#5bb8dc</color>
+    <color name="actionbar_button_color_text_pressed" >#5bb8dc</color>
+    <color name="actionbar_button_color_background_pressed" >#aa1174b7</color>
+    <color name="actionbar_background" >#0b2d3b</color>
+    <color name="actionbar_background_line" >#109247</color>
+
+    <color name="ui_red" >#96000c</color>
+    <color name="ui_blue" >#000191</color>
+    <color name="ui_green" >#109247</color>
+    <color name="ui_yellow" >#bcbc40</color>
+    <color name="ui_white" >#ffd9d9d9</color>
+    <color name="ui_grey" >#ffafafaf</color>
+
+    <color name="text_color_primary" >#00ffd2</color>
+    <color name="text_edit_bg" >#34003238</color>
+
+
+
+</resources>

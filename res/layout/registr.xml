@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:background="#ff65b0ff" android:clickable="true">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="60dp"
+                android:textSize="28sp"
+                android:text="cancel"
+                android:id="@+id/cancBut"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="30" android:layout_height="60dp" android:textSize="14sp"
+
+                android:id="@+id/twoTV"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                />
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="REGISTRATION"
+              android:gravity="center"
+              android:textSize="25sp"
+            />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Enter your new login"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_gravity="center"/>
+        <EditText android:layout_width="match_parent" android:layout_height="50dp"
+                android:layout_marginTop="3dp"
+                  android:id="@+id/loginField"
+                  android:background="#ffe1dde8"
+                  android:textColor="#000000"
+
+                />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Thinking your password"
+                  android:layout_marginTop="20dp"
+                  android:textSize="20sp"
+                  android:layout_gravity="center"/>
+        <EditText android:layout_width="match_parent" android:layout_height="50dp"
+                  android:layout_marginTop="3dp"
+                  android:id="@+id/passField"
+                  android:background="#ffe1dde8"
+                  android:textColor="#000000"
+
+                />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Descrispion. Less about you."
+                  android:layout_marginTop="20dp"
+                  android:textSize="20sp"
+                  android:layout_gravity="center"/>
+        <EditText android:layout_width="match_parent" android:layout_height="80dp"
+                  android:layout_marginTop="3dp"
+                  android:id="@+id/descField"
+                  android:background="#ffe1dde8"
+                  android:textColor="#000000"
+
+                />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Born date"
+                  android:layout_marginTop="20dp"
+                  android:textSize="20sp"
+                  android:layout_gravity="center"/>
+        <EditText android:layout_width="match_parent" android:layout_height="50dp"
+                  android:layout_marginTop="3dp"
+                  android:id="@+id/dateBorn"
+                  android:background="#ffe1dde8"
+                  android:textColor="#000000"
+
+                />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Choose your gender"
+                  android:layout_marginTop="20dp"
+                  android:textSize="20sp"
+                  android:layout_gravity="center"/>
+        <RadioGroup android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/male" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#ff65b0ff" android:text="MALE" android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/female" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#ff65b0ff" android:text="FEMALE" android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <Button android:layout_width="match_parent" android:layout_height="50dp"
+                  android:layout_marginTop="15dp"
+                  android:id="@+id/saveBut"
+                  android:background="#ff65b0ff"
+                  android:textColor="#ffffff"
+                    android:text="SAVE"
+                />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
